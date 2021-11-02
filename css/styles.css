@@ -501,12 +501,13 @@ footer {
   color: var(--text-alt-color);
 }
 .footer-subscribe input::placeholder {
-  padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-subscribe input {
   width: calc(100% - 218px);
   height: 50px;
+  padding: 15px;
+
   border-radius: 4px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
